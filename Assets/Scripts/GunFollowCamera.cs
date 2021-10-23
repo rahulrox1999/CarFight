@@ -8,6 +8,10 @@ public class GunFollowCamera : MonoBehaviour
     public float RotationSpeed;
     public Transform Gun;
     float GunAngel;
+    public float GunAngleValueMax;
+    public float GunAngleValueMin;
+
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +27,7 @@ public class GunFollowCamera : MonoBehaviour
     public void RotateGun()
     {
         GunAngel += Input.GetAxis("Mouse X") * RotationSpeed * -Time.deltaTime;
-        GunAngel = Mathf.Clamp(GunAngel, -360, 360);
+        GunAngel = Mathf.Clamp(GunAngel, GunAngleValueMin, GunAngleValueMax);
         Gun.localRotation = Quaternion.AngleAxis(GunAngel, Vector3.up);
     }
 }

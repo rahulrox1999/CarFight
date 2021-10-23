@@ -19,7 +19,7 @@ public class VehicleCamera : MonoBehaviour
     public List<Transform> cameraSwitchView;
     public LayerMask lineOfSightMask = 0;
 
-    public CarUIClass CarUI;
+   // public CarUIClass CarUI;
 
 
 
@@ -41,8 +41,8 @@ public class VehicleCamera : MonoBehaviour
 
 
 
-    [System.Serializable]
-    public class CarUIClass
+    //[System.Serializable]
+  /*  public class CarUIClass
     {
 
         public Image tachometerNeedle;
@@ -52,6 +52,7 @@ public class VehicleCamera : MonoBehaviour
         public Text GearText;
 
     }
+  */
 
 
     
@@ -135,8 +136,8 @@ public class VehicleCamera : MonoBehaviour
 
 
 
-
-    public void ShowCarUI()
+  /*
+   public void ShowCarUI()
     {
 
 
@@ -204,6 +205,8 @@ public class VehicleCamera : MonoBehaviour
 
     }
 
+    */
+
 
 
     void Start()
@@ -254,7 +257,7 @@ public class VehicleCamera : MonoBehaviour
 
 
 
-        ShowCarUI();
+       // ShowCarUI();
 
         GetComponent<Camera>().fieldOfView = Mathf.Clamp(carScript.speed / 10.0f + 60.0f, 60, 90.0f);
 
