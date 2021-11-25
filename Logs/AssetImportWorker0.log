@@ -1,0 +1,395 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\karma\Downloads\InstalledSoft\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/ForFun/CarFight
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61973
+Successfully changed project path to: D:/Unity/ForFun/CarFight
+D:/Unity/ForFun/CarFight
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Users/karma/Downloads/InstalledSoft/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/ForFun/CarFight/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   27.21.14.6235
+Initialize mono
+Mono path[0] = 'C:/Users/karma/Downloads/InstalledSoft/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/karma/Downloads/InstalledSoft/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/karma/Downloads/InstalledSoft/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/karma/Downloads/InstalledSoft/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002051 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1638ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (291ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (121ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002157 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1702 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2162.
+Total: 2.780800 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 2.341000 ms  DeleteObjects: 0.203900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-2.jpg
+  artifactKey: Guid(b8f1fceeb8d3e7d4cb46f5c7567210c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-2.jpg using Guid(b8f1fceeb8d3e7d4cb46f5c7567210c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d34bf5d2ddf3359387cf6e5d339376a') in 0.068981 seconds 
+  Import took 0.072262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002682 seconds.
+  path: Assets/EffectExamples/Misc Effects/Textures/SparkParticle.tif
+  artifactKey: Guid(2c9ba3deede9b844c84fabc9d8b70c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Misc Effects/Textures/SparkParticle.tif using Guid(2c9ba3deede9b844c84fabc9d8b70c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122f71ac8d6a47abfb0e4a8389085cf0') in 0.010000 seconds 
+  Import took 0.012408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014588 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Terrain Assets/Terrain Grass/Grass2.psd
+  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Terrain Assets/Terrain Grass/Grass2.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff8660a1f0149777a965ef4d7390edd') in 0.020403 seconds 
+  Import took 0.023550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012570 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-8.psd
+  artifactKey: Guid(53b121d7bc340b843b3a16b3f39dc38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-8.psd using Guid(53b121d7bc340b843b3a16b3f39dc38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20abc91b8a83c9b93d4d8805971445a') in 0.006487 seconds 
+  Import took 0.009385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002566 seconds.
+  path: Assets/RCK 2.3/Sounds/NewSounds/Car/Idle.wav
+  artifactKey: Guid(7486a7520d201914fb1ba6bb3e5ebba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Sounds/NewSounds/Car/Idle.wav using Guid(7486a7520d201914fb1ba6bb3e5ebba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8714e290446df90a629afa075ef35729') in 0.041112 seconds 
+  Import took 0.043756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030711 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Light Flares/Sources/Textures/starflare.psd
+  artifactKey: Guid(51dc82ef9d11c594d000e7c9e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Light Flares/Sources/Textures/starflare.psd using Guid(51dc82ef9d11c594d000e7c9e39e7c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1638d5a1e2d18129e567bfaffe31b477') in 0.006089 seconds 
+  Import took 0.008338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005018 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif
+  artifactKey: Guid(c826d12aca5bdda4c900b00833f6d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/FlashParticle.tif using Guid(c826d12aca5bdda4c900b00833f6d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5570defd4f133e5db0ccbac55b5233b9') in 0.006128 seconds 
+  Import took 0.008499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009799 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Tree/Textures/AlderBranches.psd
+  artifactKey: Guid(2583a62daadd8b646be6130311221c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Tree/Textures/AlderBranches.psd using Guid(2583a62daadd8b646be6130311221c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e135921bfe008b7c8b2d30e2a5463d') in 0.005941 seconds 
+  Import took 0.008262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019976 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Vahicles/RallyCar/Textures/Wheel.jpg
+  artifactKey: Guid(8e8b41283df96c444b5841e7d9ff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Vahicles/RallyCar/Textures/Wheel.jpg using Guid(8e8b41283df96c444b5841e7d9ff1d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca6138ea8c28b730a609b468bf693a0') in 0.007529 seconds 
+  Import took 0.009973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009528 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Tree/Textures/AlderBark.PSD
+  artifactKey: Guid(56ca09b5854db134983e151a949d54c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Tree/Textures/AlderBark.PSD using Guid(56ca09b5854db134983e151a949d54c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd507797f0f9b406345865f1594380f0e') in 0.007001 seconds 
+  Import took 0.009241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005561 seconds.
+  path: Assets/Free Pack/Bullet Impact 14.wav
+  artifactKey: Guid(75adfe9a619833445a701305b983e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Bullet Impact 14.wav using Guid(75adfe9a619833445a701305b983e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d20f3817ad33b9e11e749fedb707ad9') in 0.006233 seconds 
+  Import took 0.008538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016718 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-1.jpg
+  artifactKey: Guid(4abe749c1f26ec84eb4daff9ab5ec88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-1.jpg using Guid(4abe749c1f26ec84eb4daff9ab5ec88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3b396f485aa5d763601f27d56942c7') in 0.009953 seconds 
+  Import took 0.012030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009118 seconds.
+  path: Assets/EffectExamples/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/TutorialInfo/Icons/Help_Icon.png using Guid(a186f8a87ca4f4d3aa864638ad5dfb65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab834855c90f8d50d56edbb881356189') in 0.006302 seconds 
+  Import took 0.008464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006714 seconds.
+  path: Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks.psd
+  artifactKey: Guid(a8ebe4c905904424f94c90be505a5c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks.psd using Guid(a8ebe4c905904424f94c90be505a5c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387bf2be4e0f059368665e573a763124') in 0.004743 seconds 
+  Import took 0.006757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002245 seconds.
+  path: Assets/RCK 2.3/Sounds/NewSounds/Car/High.wav
+  artifactKey: Guid(a7763bd04aa8f404291c8bcb1cf328f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Sounds/NewSounds/Car/High.wav using Guid(a7763bd04aa8f404291c8bcb1cf328f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5884064a16eec07ec0a9eff1da4119e') in 0.006219 seconds 
+  Import took 0.008615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002794 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Skyboxes/Projectors/Sources/Materials/shadow.psd
+  artifactKey: Guid(44e327fb4f522c74f878e95a92ec2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Skyboxes/Projectors/Sources/Materials/shadow.psd using Guid(44e327fb4f522c74f878e95a92ec2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9a4dd293c9bc7c4374fe042fe77cbb') in 0.005492 seconds 
+  Import took 0.007407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008514 seconds.
+  path: Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png
+  artifactKey: Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/Shared/Textures/DustPuffSmallParticleSheet.png using Guid(1c1f5fdffb8c5a944a978e8debb8fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d00a3881304ce357bdd39928b3d870a') in 0.022849 seconds 
+  Import took 0.024890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020954 seconds.
+  path: Assets/Scenes/Test2.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test2.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5234b900168613c680d296f12352bd') in 0.001666 seconds 
+  Import took 0.004019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002006 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-9.png
+  artifactKey: Guid(beb32b8d72af33b408ca9bc740d79d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-9.png using Guid(beb32b8d72af33b408ca9bc740d79d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54520e7cacaa20bd31a4bd2881fe03b') in 0.005862 seconds 
+  Import took 0.008250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009403 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Vahicles/OldCar/Textures/Tire.bmp
+  artifactKey: Guid(cc502b87d32ee4e46b0f83b5ea44b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Vahicles/OldCar/Textures/Tire.bmp using Guid(cc502b87d32ee4e46b0f83b5ea44b0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55344c69c76696dc0f975d7b195d8a6') in 0.008203 seconds 
+  Import took 0.010411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010427 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Vahicles/OldCar/Textures/Body.bmp
+  artifactKey: Guid(01dd9eb734b48ee44ad0ca0d3b3bc9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Vahicles/OldCar/Textures/Body.bmp using Guid(01dd9eb734b48ee44ad0ca0d3b3bc9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1092e4f32da5ce5bd363eda49d804b0a') in 0.007756 seconds 
+  Import took 0.010575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004714 seconds.
+  path: Assets/Free Pack/Metal impact 5.wav
+  artifactKey: Guid(958408b32ccf3714ea02821877b0870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Metal impact 5.wav using Guid(958408b32ccf3714ea02821877b0870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ccd70bdc5462fc48d97d1b5067d5f4') in 0.006387 seconds 
+  Import took 0.008889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003867 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Vahicles/RallyCar/Textures/Inside.jpg
+  artifactKey: Guid(229b6ea8cb5d7a944bc0aaf72f7280d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Vahicles/RallyCar/Textures/Inside.jpg using Guid(229b6ea8cb5d7a944bc0aaf72f7280d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbd2ffe9ef1cbb76f2d6c0763a805eb') in 0.006612 seconds 
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026528 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Vahicles/RallyCar/Textures/Body.jpg
+  artifactKey: Guid(5be517d7abef9514b9f13d94e5340219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Vahicles/RallyCar/Textures/Body.jpg using Guid(5be517d7abef9514b9f13d94e5340219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76cce7d88dd8bc2290cfcb1a915e059') in 0.011783 seconds 
+  Import took 0.014251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002306 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif
+  artifactKey: Guid(4dcc91061fcec7d40a6d7c381bf1eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughAlbedo.tif using Guid(4dcc91061fcec7d40a6d7c381bf1eabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d54b6343d0589e8ad411ce987ded4f') in 0.005420 seconds 
+  Import took 0.007766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010665 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-7.jpg
+  artifactKey: Guid(4268591644f62554e9ec053742d4a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Street/Textures/Tex-7.jpg using Guid(4268591644f62554e9ec053742d4a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0c73fbfa818fe9af16f60bc663264') in 0.006530 seconds 
+  Import took 0.009084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007695 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Terrain Assets/Terrain Grass/Grass.psd
+  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Terrain Assets/Terrain Grass/Grass.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5090e418a001397106260a658a09a3') in 0.006385 seconds 
+  Import took 0.008503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012211 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Skyboxes/Projectors/Sources/Textures/Falloff.psd
+  artifactKey: Guid(cc90a732ad112a541100162a44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Skyboxes/Projectors/Sources/Textures/Falloff.psd using Guid(cc90a732ad112a541100162a44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6dea311b63ac314c897c9d5fbb2c2e') in 0.005031 seconds 
+  Import took 0.007429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024370 seconds.
+  path: Assets/RCK 2.3/Sounds/NewSounds/Car/Low.wav
+  artifactKey: Guid(e86212221b27f3440a17189edce1e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Sounds/NewSounds/Car/Low.wav using Guid(e86212221b27f3440a17189edce1e9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92cfccd376baeed20ab8e7d69fb0c74') in 0.008332 seconds 
+  Import took 0.011147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002789 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif
+  artifactKey: Guid(4c5f9569d875837419e6fb548cd8ad42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/WoodBulletHoleAlbedo.tif using Guid(4c5f9569d875837419e6fb548cd8ad42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eeee9b0030e72975af62fb830def95') in 0.005797 seconds 
+  Import took 0.007548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006780 seconds.
+  path: Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif
+  artifactKey: Guid(b284a0bea151ce444957bb92f6b50ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/WeaponEffects/Textures/BulletHoleMetalThroughNormals.tif using Guid(b284a0bea151ce444957bb92f6b50ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02be78af30c2209031b0de43f8b1587a') in 0.007632 seconds 
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007221 seconds.
+  path: Assets/RCK 2.3/Perfabs/Models/Street/Textures/Grass/Ground10_1.jpg
+  artifactKey: Guid(760cde483b75a2647812c62209f7cc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Perfabs/Models/Street/Textures/Grass/Ground10_1.jpg using Guid(760cde483b75a2647812c62209f7cc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9e854f9cbba34d658771d8f7c16463') in 0.007055 seconds 
+  Import took 0.008993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002760 seconds.
+  path: Assets/RCK 2.3/Standard Assets/Light Flares/Sources/Textures/50mmflare.psd
+  artifactKey: Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RCK 2.3/Standard Assets/Light Flares/Sources/Textures/50mmflare.psd using Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc980b833b8de3b63e0ebb58f737f1e1') in 0.005304 seconds 
+  Import took 0.007215 seconds .
+

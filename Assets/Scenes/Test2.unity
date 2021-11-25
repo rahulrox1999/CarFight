@@ -36043,7 +36043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d71c04e606acfae4d911fe424cfb86c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSpeed: 3500
+  RotationSpeed: 4000
   Gun: {fileID: 9113274411525250267}
   GunAngleValueMax: 1080
   GunAngleValueMin: -1080
@@ -36079,7 +36079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00030e199cdd9934dbd15380a1bcabab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlMode: 2
+  controlMode: 1
   activeControl: 1
   carWheels:
     wheels:
